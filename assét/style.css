@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    /* height: 1000px;       */
+}
+html{
+    font-family: 'Lato', sans-serif;
+}
+.main{
+    
+    
+}
+#header{
+height: 46px;
+background-color: #000;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+box-shadow: 0 0 8px rgb(66, 64, 64);
+
+}
+#nav{
+    display: inline-block;
+}
+#nav li {
+    display: inline-block;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#nav>li:hover>a{
+    color: #000;
+    background-color: #ccc;
+}
+#nav li {
+    position: relative;
+    display: inline-block;
+}
+#nav > li > a {
+   color: #fff;
+
+} 
+#nav .subnav{
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    color: black;
+    box-shadow: 0 0 8px rgb(143, 140, 140);
+
+}
+#nav .subnav li {
+    width: 100%;
+}
+#nav .subnav li a{
+    text-transform: none;
+    color: #000;
+}
+#nav li:last-child:hover .subnav{
+    display: block;
+}
+#nav .subnav li:hover{
+    background-color: #ccc;
+}
+
+#header .search-button{
+    padding: 0 24px;
+    line-height: 46px;
+    display: inline;
+    color: #fff;
+    float: right;
+}
+#header .search-button:hover{
+    cursor: pointer;
+    background-color: #f44336;
+}
+
+
+
+
+#silider{
+    width: 100px;
+    height: 500px;
+}
+
+#content{
+}
+
+#footer{
+
+}
+
